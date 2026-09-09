@@ -1,0 +1,14 @@
+name: SecretServerPlugin
+version: 1.0.0
+main: de.niklasbuchauer.secretserverplugin.SecretServerPlugin
+api-version: '1.21'
+authors: [niklasbuchauer]
+commands:
+  customitem:
+    description: Gibt Custom Items aus.
+    usage: "Benutzung: /customitem <spyglass|blindstick>"
+    permission: customitems.give
+permissions:
+  customitems.give:
+    description: Erlaubt das Ausgeben von Custom Items.
+    default: op
